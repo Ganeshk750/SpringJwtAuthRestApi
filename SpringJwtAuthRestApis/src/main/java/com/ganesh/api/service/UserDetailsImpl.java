@@ -91,6 +91,15 @@ public class UserDetailsImpl implements UserDetails{
 		return true;
 	}
 	
+	
+	public Long getId() {
+		return id;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (this == obj)
